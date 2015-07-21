@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Coasts.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //Test implementation it have to removed
+    Coasts *ausgaben = [NSEntityDescription insertNewObjectForEntityForName:@"Coasts" inManagedObjectContext:self.managedObjectContext];
+    if(ausgaben != nil){
+        ausgaben.dataOfAdding = [NSDate date];
+        ausgaben.position = @"Baecker";
+        ausgaben.price = [[NSNumber alloc] initWithDouble:1.23];
+        
+        NSError * error = nil;
+        if([self.managedObjectContext save:&error]){
+            NSLog(@"Succesfully saved Context");
+        }else{
+            NSLog(@"error saveing Context: %@", error);
+        }
+    }
+    
     return YES;
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4714AD6C1B5EDA3000808E1E /* Coasts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714AD6B1B5EDA3000808E1E /* Coasts.m */; };
 		4737C4911B52567F0007DC32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4901B52567F0007DC32 /* main.m */; };
 		4737C4941B52567F0007DC32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4931B52567F0007DC32 /* AppDelegate.m */; };
 		4737C4971B52567F0007DC32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4961B52567F0007DC32 /* ViewController.m */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4714AD691B5EDA3000808E1E /* Coasts+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Coasts+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4714AD6A1B5EDA3000808E1E /* Coasts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coasts.h; sourceTree = "<group>"; };
+		4714AD6B1B5EDA3000808E1E /* Coasts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coasts.m; sourceTree = "<group>"; };
 		4737C48C1B52567F0007DC32 /* haushaltsbuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haushaltsbuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4737C4901B52567F0007DC32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4737C4921B52567F0007DC32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +116,9 @@
 				4737C4A01B52567F0007DC32 /* LaunchScreen.storyboard */,
 				4737C4A31B52567F0007DC32 /* Info.plist */,
 				4737C49B1B52567F0007DC32 /* haushaltsbuch.xcdatamodeld */,
+				4714AD691B5EDA3000808E1E /* Coasts+CoreDataProperties.h */,
+				4714AD6A1B5EDA3000808E1E /* Coasts.h */,
+				4714AD6B1B5EDA3000808E1E /* Coasts.m */,
 				4737C48F1B52567F0007DC32 /* Supporting Files */,
 			);
 			path = haushaltsbuch;
@@ -276,6 +283,7 @@
 			files = (
 				4737C4971B52567F0007DC32 /* ViewController.m in Sources */,
 				4737C49D1B52567F0007DC32 /* haushaltsbuch.xcdatamodeld in Sources */,
+				4714AD6C1B5EDA3000808E1E /* Coasts.m in Sources */,
 				4737C4941B52567F0007DC32 /* AppDelegate.m in Sources */,
 				4737C4911B52567F0007DC32 /* main.m in Sources */,
 			);
@@ -505,6 +513,7 @@
 				4737C4BE1B52567F0007DC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4737C4BF1B52567F0007DC32 /* Build configuration list for PBXNativeTarget "haushaltsbuchTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				4737C4C11B52567F0007DC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4737C4C21B52567F0007DC32 /* Build configuration list for PBXNativeTarget "haushaltsbuchUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				4737C4C41B52567F0007DC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
