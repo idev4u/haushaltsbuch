@@ -17,6 +17,7 @@
 		4737C4A21B52567F0007DC32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4737C4A01B52567F0007DC32 /* LaunchScreen.storyboard */; };
 		4737C4AD1B52567F0007DC32 /* haushaltsbuchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4AC1B52567F0007DC32 /* haushaltsbuchTests.m */; };
 		4737C4B81B52567F0007DC32 /* haushaltsbuchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4B71B52567F0007DC32 /* haushaltsbuchUITests.m */; };
+		475C086F1B6172E20094A320 /* InputVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475C086E1B6172E20094A320 /* InputVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		4737C4B31B52567F0007DC32 /* haushaltsbuchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haushaltsbuchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4737C4B71B52567F0007DC32 /* haushaltsbuchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = haushaltsbuchUITests.m; sourceTree = "<group>"; };
 		4737C4B91B52567F0007DC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475C086D1B6172E20094A320 /* InputVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputVCViewController.h; sourceTree = "<group>"; };
+		475C086E1B6172E20094A320 /* InputVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				4737C4921B52567F0007DC32 /* AppDelegate.h */,
 				4737C4931B52567F0007DC32 /* AppDelegate.m */,
+				475C086D1B6172E20094A320 /* InputVCViewController.h */,
+				475C086E1B6172E20094A320 /* InputVCViewController.m */,
 				4737C4951B52567F0007DC32 /* ViewController.h */,
 				4737C4961B52567F0007DC32 /* ViewController.m */,
 				4737C4981B52567F0007DC32 /* Main.storyboard */,
@@ -285,6 +290,7 @@
 				4737C49D1B52567F0007DC32 /* haushaltsbuch.xcdatamodeld in Sources */,
 				4714AD6C1B5EDA3000808E1E /* Coasts.m in Sources */,
 				4737C4941B52567F0007DC32 /* AppDelegate.m in Sources */,
+				475C086F1B6172E20094A320 /* InputVCViewController.m in Sources */,
 				4737C4911B52567F0007DC32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
