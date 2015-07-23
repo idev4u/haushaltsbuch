@@ -18,6 +18,7 @@
 		4737C4AD1B52567F0007DC32 /* haushaltsbuchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4AC1B52567F0007DC32 /* haushaltsbuchTests.m */; };
 		4737C4B81B52567F0007DC32 /* haushaltsbuchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4737C4B71B52567F0007DC32 /* haushaltsbuchUITests.m */; };
 		475C086F1B6172E20094A320 /* InputVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 475C086E1B6172E20094A320 /* InputVCViewController.m */; };
+		475C08751B617A2D0094A320 /* CentralInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 475C08741B617A2D0094A320 /* CentralInfoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4737C4B91B52567F0007DC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		475C086D1B6172E20094A320 /* InputVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputVCViewController.h; sourceTree = "<group>"; };
 		475C086E1B6172E20094A320 /* InputVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputVCViewController.m; sourceTree = "<group>"; };
+		475C08731B617A2D0094A320 /* CentralInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralInfoVC.h; sourceTree = "<group>"; };
+		475C08741B617A2D0094A320 /* CentralInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralInfoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 		4737C4831B52567F0007DC32 = {
 			isa = PBXGroup;
 			children = (
+				475C08731B617A2D0094A320 /* CentralInfoVC.h */,
+				475C08741B617A2D0094A320 /* CentralInfoVC.m */,
 				4737C48E1B52567F0007DC32 /* haushaltsbuch */,
 				4737C4AB1B52567F0007DC32 /* haushaltsbuchTests */,
 				4737C4B61B52567F0007DC32 /* haushaltsbuchUITests */,
@@ -289,6 +294,7 @@
 				4737C4971B52567F0007DC32 /* ViewController.m in Sources */,
 				4737C49D1B52567F0007DC32 /* haushaltsbuch.xcdatamodeld in Sources */,
 				4714AD6C1B5EDA3000808E1E /* Coasts.m in Sources */,
+				475C08751B617A2D0094A320 /* CentralInfoVC.m in Sources */,
 				4737C4941B52567F0007DC32 /* AppDelegate.m in Sources */,
 				475C086F1B6172E20094A320 /* InputVCViewController.m in Sources */,
 				4737C4911B52567F0007DC32 /* main.m in Sources */,
